@@ -1,4 +1,60 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
+
+#top-banner {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+#main-nav {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.nav-bar {
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  width: 20%;
+  position: relative;
+  top: 100px;
+}
+
+.nav-bar:hover {
+  background-color: gray;
+}
+
+#nav-bar-background {
+  margin: 0px;
+  background-color: red;
+  color: gray;
+  font-size: 50px;
+  padding: 30px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+
+
+
+
